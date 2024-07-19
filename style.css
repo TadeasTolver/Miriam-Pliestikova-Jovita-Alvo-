@@ -1,0 +1,108 @@
+#menu {
+    top: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 16.5%;
+    margin-left: auto;
+    border: 3px solid green;
+    position: fixed;
+    background-color: black
+    
+  }
+  
+  h2 a {
+    font-family: Helvetica;
+    margin-right: 15px;
+    color: white;
+  }
+  
+  h1 {
+    font-family: "Noto Sans Mono";
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-left: 27px;
+  }
+  
+  h3 {
+    font-family: "Noto Sans Mono";
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    text-align: left;
+  
+  }
+  
+  p {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-right: 10px;
+    width: 75%;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 18px;
+  
+  }
+  
+  img {
+    height: 250px;
+  }
+  
+  a {
+    color: white;
+    transition: color 300ms ;
+  }
+  
+  a:hover {
+    color: darkgreen;
+  }
+  
+  div {
+    display: inline-grid;
+    width: 710px;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    grid-auto-flow: row;
+  }
+  
+  #footer {
+    border: 3px solid darkblue;
+    height: 195px;
+    background-color: black;
+    width: 100%;
+  }
+  
+  
+  
+  
+  #contact {
+      position: relative:
+      font-family: "Noto Sans Mono";
+      font-size: 25px; 
+      color: white;
+      margin-top: 50px;
+  }
+  
+  h4 {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    left: 25px;
+    bottom: 30px;
+    margin: 0;
+  
+  
+  }
+  
+  h6 {
+    position: relative;
+    left: 22px;
+    bottom: 35px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 0;
+  }
